@@ -490,18 +490,7 @@
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
                     { src: 'plugin/notes/notes.js', async: true },
                     // jQuary, imported in order to make lists sortable
-                    // { src: 'http://code.jquery.com/jquery-1.10.2.js'},
-                    // { src: 'http://code.jquery.com/ui/1.11.4/jquery-ui.js', callback: function() {
-                      $(function() {
-                        $( ".sortable" ).sortable();
-                        // $( "#sortable" ).disableSelection();
-                        /* 
-                        Ray doesn't think we need this disableSelection().
-                        Ray doesn't like ids too much, so he changed the original jQuery.
-                        Ray turned #sortable into a class .sortable 
-                        */
-                      });
-                    }},
+                    { src: 'http://code.jquery.com/jquery-1.10.2.js'},
                     /*
                     Glossary ==> Callback funtions:
                     Functions that happen after the external
